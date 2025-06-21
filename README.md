@@ -1,12 +1,33 @@
-# React + Vite
+# CV Application / Resume Maker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based CV/Resume builder application that allows users to input their information and see a live preview of their CV.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Personal Information**: Add your name, email, and LinkedIn profile
+- **Education**: Input university, GPA, and graduation term
+- **Work Experience**: Add employment history with company, position, duration, and descriptions
+- **Honors & Awards**: Showcase your achievements
+- **Live Preview**: See your CV update in real-time as you type
+- **Clean Layout**: Professional two-column layout with form inputs on the left and CV preview on the right
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React + Vite
+- CSS3 with Flexbox layout
+- Component-based architecture
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
+4. Open your browser to `http://localhost:5173`
+
+## Project Structure
+
+- `src/components/` - React components for different CV sections
+- `src/Styles/` - CSS files for styling
+- `src/App.jsx` - Main application component with state management
+
+Built with React and Vite for fast development and optimal performance.
