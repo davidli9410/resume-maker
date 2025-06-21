@@ -1,0 +1,89 @@
+.page-container {
+    display: flex;
+    gap: 4rem;
+    padding: 2rem;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .page-container::after {
+    content: '';
+    position: absolute;
+    left: 43%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: white;
+    transform: translateX(-50%);
+  }
+  
+  .form-section {
+    flex: 0 1 auto;
+    width: 400px;
+  }
+  
+  .cv-preview {
+    flex: 0 1 auto;
+    width: 600px;
+    margin-top: 0;
+  }
+
+  .cv-preview h2, .cv-preview h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .cv-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .cv-contact {
+    text-align: center;
+  }
+
+  .cv-section {
+    margin-bottom: 2rem;
+  }
+
+  .employment-item {
+    text-align: left;
+    margin-bottom: 1rem;
+    padding-left: 1rem; 
+  }
+
+  .education-item {
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+  }
+
+  .honors-item {
+    text-align: left;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+  }
+
+  .company-position, .university {
+    margin-bottom: 0.25rem;
+  }
+
+  .dates, .details {
+    color: #cccccc;
+  }
+
+  .cv-contact a {
+    color: white;
+    text-decoration: none;
+    margin-top: 0.5rem;
+    display: inline-block;
+  }
+
+  .cv-contact a:hover {
+    text-decoration: underline;
+  }
+
+  .description {
+    font-weight: 200;
+  }
